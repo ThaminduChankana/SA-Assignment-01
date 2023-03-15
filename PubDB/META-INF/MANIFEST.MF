@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: PubDB
+Bundle-SymbolicName: PubDB
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.sa.pubdb.service.DatabaseServiceActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: PubDB
+Import-Package: com.mysql.jdbc;version="0.0.0",org.osgi.framework;version="1.3.0"
+Export-Package: com.sa.pubdb.service
+Bundle-ActivationPolicy: lazy
+Require-Bundle: com.mysql.jdbc;bundle-version="1.0.0"
